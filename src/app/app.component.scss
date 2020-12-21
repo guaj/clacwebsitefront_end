@@ -1,0 +1,48 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+router-outlet {
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+.footer-icon {
+  max-width: 80px;
+  max-height: 80px;
+  padding-top: 5%;
+}
+
+
+
+.foot {
+  background-color: #555;
+  display: block;
+}
+
+.foot-title {
+  font-size: 20px;
+  color: ivory;
+}
+
+.links {
+  color: darkgray;
+}
+
+.featurette-divider {
+  color: ivory;
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+
+.navbar-image {
+  max-width: 35%;
+  float: left;
+}
