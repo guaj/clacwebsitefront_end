@@ -1,0 +1,50 @@
+<p>Veuillez remplir les champs ci-dessous pour communiquer avec un membre du personnel.</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <mat-form-field appearance="fill" class="fullfill">
+      <mat-label>Prénom</mat-label>
+      <input matInput [(ngModel)]="data.prenom">
+    </mat-form-field>
+  </div>
+
+  <div class="col-md-6">
+    <mat-form-field appearance="fill" class="fullfill">
+      <mat-label>Nom</mat-label>
+      <input matInput [(ngModel)]="data.nom">
+    </mat-form-field>
+  </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-6">
+    <mat-form-field appearance="fill" class="fullfill">
+      <mat-label>Addresse Courriel</mat-label>
+      <input matInput [(ngModel)]="data.email">
+    </mat-form-field>
+    </div>
+    <div class="col-md-6">
+      <mat-form-field appearance="fill" class="fullfill">
+        <mat-label>Numéro de Téléphone</mat-label>
+        <input matInput [(ngModel)]="data.phone">
+      </mat-form-field>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <mat-form-field appearance="fill" class="fullfill message">
+      <mat-label>Message</mat-label>
+      <textarea matInput [(ngModel)]="data.text"></textarea>
+    </mat-form-field>
+  </div>
+</div>
+
+
+
+<div mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Annuler</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Envoyer</button>
+</div>

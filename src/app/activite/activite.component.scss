@@ -1,0 +1,57 @@
+.padding-card {
+  padding-bottom: 50px!important;
+  min-height: 300px;
+  display: flex;
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: top;
+}
+
+.container-heading {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: darkslateblue;
+  line-height: 120%;
+}
+
+.card-title {
+  text-align: center;
+  color: steelblue!important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 120%;
+}
+
+.text {
+  text-align: justify;
+}
+
+.sub-heading {
+  color: steelblue;
+  padding-bottom: 40px;
+}
+
+.card-container {
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+.sub-heading-2 {
+  font-weight: 400;
+  margin-top: 50px;
+  font-size: 30px;
+  color: darkslateblue;
+  line-height: 120%;
+}

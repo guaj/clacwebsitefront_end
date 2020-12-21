@@ -1,0 +1,97 @@
+.cardIcon {
+  float: bottom;
+}
+
+.card-heading {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.body {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  color: #5a5a5a;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+.card-align {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myalign {
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.bottom-feature {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10%;
+}
+
+.featurette-heading {
+  padding-left: 6%;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+p {
+  padding-left: 2%;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.icon {
+  font-size: 40px;
+  padding-left: 42%;
+}
+
+.map {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.text-container {
+  padding-top: 7%;
+}
+
+.bottom-logo {
+  max-width: 90%;
+  padding-left: 6%;
+}
+
+.card-logo {
+  text-align: center;
+}
+
+.last-img {
+  padding-bottom: 50px;
+}
+
+.padding-card {
+  padding-bottom: 50px;
+}
