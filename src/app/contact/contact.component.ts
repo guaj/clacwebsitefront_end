@@ -4,17 +4,20 @@ import {MailComponent} from '../mail/mail.component';
 import {MailService} from './mail.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
 
+
 export interface MailData {
   prenom: string;
   nom: string;
   email: string;
   phone: string;
   text: string;
+  complete: boolean;
 }
 
 export class Request {
   text: string;
 }
+
 
 
 @Component({

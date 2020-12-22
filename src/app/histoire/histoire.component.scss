@@ -7,7 +7,10 @@
   padding: 40px;
 }
 
-
+.morepaddingtop{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 .card-container {
   height: 100vh;
   display: flex;
@@ -65,5 +68,12 @@
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padding-card {
+  padding-bottom: 50px!important;
+  min-height: 300px;
+  display: flex;
 }

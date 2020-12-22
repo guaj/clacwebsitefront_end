@@ -16,4 +16,8 @@ export class MailComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  cancelMail() {
+    this.data.complete = false;
+  }
 }
