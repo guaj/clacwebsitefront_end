@@ -16,6 +16,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatMenuModule} from '@angular/material/menu';
 import { HistoireComponent } from './histoire/histoire.component';
 import { ActiviteComponent } from './activite/activite.component';
 import { MailComponent } from './mail/mail.component';
@@ -53,6 +54,7 @@ import { MembreComponent } from './membre/membre.component';
         FormsModule,
         HttpClientModule,
         MatSnackBarModule,
+        MatMenuModule,
     ],
   entryComponents: [
     MailComponent,

@@ -1,19 +1,39 @@
 <mat-toolbar>
-  <a mat-icon-button color="primary" aria-label="home button" href="/acceuil">
-    <mat-icon>home</mat-icon>
-  </a>
-  <a mat-button color="primary" aria-label="nous contacter button" href="/contact">
-    Nous Contacter
-  </a>
-  <a mat-button color="primary" aria-label="notre histoire link" href="/aide">
-    Aide au Logement
-  </a>
-  <a mat-button color="primary" aria-label="activity link" href="/activite">
-    Nos Activités
-  </a>
-  <a mat-button color="primary" aria-label="activity link" href="/membre">
-    Espaces Membres
-  </a>
+
+  <div class="row">
+
+    <div class="col">
+      <button mat-icon-button  color="primary" [matMenuTriggerFor]="menu" ><mat-icon>view_headline</mat-icon></button>
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item  aria-label="nous contacter button">
+          <a href="/contact" color="primary">Nous Contacter</a>
+        </button>
+        <button mat-menu-item color="primary" aria-label="notre histoire link">
+          <a href="/aide">Aide au Logement</a>
+        </button>
+        <button mat-menu-item color="primary" aria-label="activity link">
+          <a href="/activite">Nos Activités</a>
+        </button>
+        <button mat-menu-item color="primary" aria-label="activity link">
+          <a href="/membre">Espaces Membres</a>
+        </button>
+
+      </mat-menu>
+    </div>
+
+    <div class="col">
+      <a mat-icon-button color="primary" aria-label="home button" href="/accueil">
+        <mat-icon>home</mat-icon>
+      </a>
+    </div>
+    <div class="col">
+      <a mat-icon-button color="primary" aria-label="home button" href="/accueil">
+        <mat-icon>perm_identity</mat-icon>
+      </a>
+    </div>
+
+  </div>
 </mat-toolbar>
 
 <router-outlet></router-outlet>

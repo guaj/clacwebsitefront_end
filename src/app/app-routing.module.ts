@@ -7,7 +7,7 @@ import {HistoireComponent} from './histoire/histoire.component';
 import {MembreComponent} from './membre/membre.component';
 
 const routes: Routes = [
-  { path: 'acceuil', component: HistoireComponent},
+  { path: 'accueil', component: HistoireComponent},
   { path: 'contact', component: ContactComponent},
   { path: '',  redirectTo: 'acceuil', pathMatch: 'full' },
   {path: 'aide', component: HomeComponent},
