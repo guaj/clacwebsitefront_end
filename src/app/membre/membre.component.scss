@@ -1,0 +1,50 @@
+.container-heading {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: darkslateblue;
+  line-height: 120%;
+}
+
+.card-title {
+  text-align: center;
+  color: steelblue!important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 120%;
+}
+
+
+.text-align {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn-secondary {
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.container-heading-2 {
+  color: slateblue;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.my-btn {
+  padding-left: 20%;
+}
+
+.padding-card {
+  padding-bottom: 100px !important;
+  min-height: 300px;
+  display: flex;
+}

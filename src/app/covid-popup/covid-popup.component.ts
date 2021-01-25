@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-
+export interface Popup {
+  title: string;
+  text: string;
+ }
 
 
 
@@ -11,6 +14,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class CovidPopupComponent implements OnInit {
+
 
   constructor() { }
 
