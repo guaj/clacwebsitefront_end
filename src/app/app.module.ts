@@ -25,6 +25,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { MembreComponent } from './membre/membre.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MembreComponent } from './membre/membre.component';
     ActiviteComponent,
     MailComponent,
     MembreComponent,
+    LoginComponent,
   ],
     imports: [
         BrowserModule,

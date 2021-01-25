@@ -37,7 +37,7 @@
 
 .sub-heading {
   color: steelblue;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .card-container {
@@ -55,4 +55,19 @@
   color: darkslateblue;
   line-height: 120%;
   text-align: center;
+}
+
+.featurette-divider {
+  padding-bottom: 50px;
+}
+
+.container-img {
+  max-width:100%;
+}
+
+.bottom-text {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+  padding-top: 50px;
 }
