@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clawebsite-dev-125143-authRole",
+      "UnauthRoleArn": "arn:aws:iam::588359473858:role/amplify-clawebsite-dev-125143-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::588359473858:role/amplify-clawebsite-dev-125143-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-clawebsite-dev-125143-deployment",
+      "UnauthRoleName": "amplify-clawebsite-dev-125143-unauthRole",
+      "StackName": "amplify-clawebsite-dev-125143",
+      "StackId": "arn:aws:cloudformation:ca-central-1:588359473858:stack/amplify-clawebsite-dev-125143/f23040d0-8036-11eb-b5bb-063e191aa824",
+      "AmplifyAppId": "dpmbuyca05kqp"
+    }
+  }
+}
